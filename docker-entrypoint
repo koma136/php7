@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+/usr/bin/memcached -m 50 -p 11211 -u memcached -l 127.0.0.1 -d
+php -S 0.0.0.0:8000 -t /code/
