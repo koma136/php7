@@ -1,4 +1,4 @@
-FROM koma136/php7
+FROM koma136/php7:7.1.9
 
 RUN apt-get update \
     && apt-get -y install \
